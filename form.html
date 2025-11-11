@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <ul class="navigation">
+        <li> <a href="index.html"> Вернуться на гланую</a></li>      
+        <li> <a href="index.html#plot"> О фильме </a></li>
+        <li> <a href="index.html#actors">Актерский состав</a></li>
+        <li> <a href="table.html"> Майлз Теллер</a></li>
+        <li> <a href="picture.html#shots">Кадры из фильма </a></li>
+        <li> <a href="index.html#music">Музыка</a></li>
+        <li> <a href="https://www.kinopoisk.ru/film/725190/video/type/0/"><img src="film_shot_2.png" height="25px"> </a></li>
+        <li> <a href="https://www.b17.ru/article/374764/" target="_blank">Психологический разбор фильма</a></li>
+        <li class="highlighter"> Записаться на закрытый показ с обсуждением </li>
+    </ul>
+    <h3>Форма для записи на обсуждение</h3>
+
+    
+    <form action="https://www.bing.com/" id="UserEnter" name="UserEnter" target="_blank">
+       <p> Имя: <input type="text" name="first_name" value="Гризельда"> </p> <br>
+       <p> Фамилия: <input type="text" name="last_name" value="Оганисян"> </p> <br>
+       <p> Номер группы: <input type="number" name="group" value="3"> </p> <br>
+       <p> Номер телефона: <input type="text" name="tel" value="89821735465"> </p> <br>
+       <p> Почта: <input type="email" name="email" value="grizelda.oganisyan@mail.ru"> </p> <br>
+       <p> Пароль: <input type="Password" name="password" size=9  value="123"> </p>
+       <p> Дата: <input type="date" name="current_date" value="26.10.2025"> </p> <br>
+       <p>Место проживания: 
+             <input type="Radio" name="place" value="Moscow">Москва
+             <input type="Radio" name="place" value="Saint Petersburg" checked >Санкт-Петербург 
+       </p>
+       <p>Выберите удобную дату обсуждения:
+             <input type="Checkbox" name="date"  value="15" checked> 15 ноября в 19:00
+             <input type="Checkbox"  name="date"   value="21" checked> 21 декабря в 18:00
+             <input type="Checkbox" name="date" value="5" checked> 5 января в 16:00
+       </p>
+            <input type="hidden" name="user_id" value="158386"> 
+       <p> 
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <!-- <button type="submit"> Отправить </button> -->
+        <input type="submit"  name="submit"  value="Отправить">
+
+       </p>
+       
+    </form>
+</body>
+</html>
