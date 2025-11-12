@@ -1,1 +1,1 @@
-[My site](file:///Users/grizelda/Desktop/2025_BWT/my%20site/index.html)
+[My site](https://grizelda_oganisian.github.io/2025_BWT/)
